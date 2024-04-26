@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4CAF50; /* Green background */
+}
+
+.header, .game-info, .game-view, .video {
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.game-image {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
