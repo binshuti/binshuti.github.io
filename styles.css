@@ -3,7 +3,7 @@ body {
     background-color: #4CAF50; /* Green background */
 }
 
-.header, .game-info, .game-view, .video {
+.header, .description, .game-view, .video {
     margin: 20px;
     padding: 15px;
     background-color: white;
@@ -11,7 +11,8 @@ body {
 }
 
 .game-image {
-    width: 16px;
-    height: 16px;
-    margin-right: 10px;
+    max-width: 50%; /* Maximum width of images is 50% of their container */
+    height: auto; /* Height is set to auto to maintain aspect ratio */
+    display: block; /* Display block to allow width and margin to be set */
+    margin: 0 auto; /* Center the images within their container */
 }
